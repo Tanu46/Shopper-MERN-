@@ -1,0 +1,109 @@
+.relatedProducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    margin-bottom: 200px;
+}
+.relatedProducts h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.relatedProducts hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.relatedProducts-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+@media(max-width:1440px){
+    .relatedProducts{
+        height: 70vh;
+        margin-bottom: 250px;
+    }
+    .relatedProducts h1{
+
+        font-size: 40px;
+    }
+    .relatedProducts hr{
+        width: 160px;
+        height: 4px;
+        border-radius: 10px;
+        background: #252525;
+        margin-left: 500px;
+       
+    }.relatedProducts-item{
+        gap: 20px;
+        margin-top: 30px;
+    }
+}
+/*  */
+@media(max-width:1024px){
+    .relatedProducts{
+        height: 60vh;
+        margin-bottom: 250px;
+    }
+    .relatedProducts h1{
+        font-size: 30px;
+    }
+    .relatedProducts hr{
+        width: 120px;
+        height: 3px;
+        border-radius: 10px;
+        background: #252525;
+        margin-left: 500px;
+       
+    }.relatedProducts-item{
+        gap: 15px;
+        margin-top: 20px;
+    }
+}
+/*  */
+@media(max-width:991px){
+    .relatedProducts{
+        height: 50vh;
+        gap: 6px;
+        margin-bottom: 150px;
+    }
+    .relatedProducts h1{
+        font-size: 20px;
+    }
+    .relatedProducts hr{
+        width: 120px;
+        height: 3px;
+        border-radius: 10px;
+        background: #252525;
+        margin-left: 500px;
+       
+    }.relatedProducts-item{
+        gap: 5px;
+        
+    }
+}
+/*  */
+@media(max-width:500px){
+    .relatedProducts{
+        height: 90vh;
+        margin-bottom: 250px;
+    }
+  .relatedProducts-item{
+        gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .relatedProducts hr{
+        width: 120px;
+        height: 3px;
+        border-radius: 10px;
+        background: #252525;
+        margin-left: 10px;
+       
+    }
+}
